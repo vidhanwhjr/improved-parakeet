@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Kwitter </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script> 
+    </head>
+    <body>
+        <h3 class="btn-btn-scucess heading"> Kwitter<sup>
+            <img src="m2.png">
+        </sup></h3>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+            <img id="logo" src="logo.png">
+            <h3> See whats happening in the world right now</h3>
+            <br>
+            <h4>Join Kwitter RIGHT NOW!</h4>
+            <div class="form-group">
+                <label>User Name:</label>
+                <input type="text" class="form-control" id="user_name_input" placeholder="Enter NAMEEEEEEEEEEEEEEEEEEEEEEEE">
+            </div>
+                <button class="btn btn-danger" id="login_btn" onclick="login()">Log in</button>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
